@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="img/bx-menu.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion ">
+            <a href="#inicio">Home</a>
+            <a href="#servicios">Services</a>
+            <a href="#galeria">Gallery</a>
+            <a href="#expertos">Professionals</a>
+            <a href="#contacto">Contact us</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Your dreams will come true</h1>
+            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </header>
+    <main> <!--es importante usar el main para establecer donde se encuentra el contenido principal-->
+        <section class="contenedor" id="servicios"><!--Al igual es importante seccionar el contenido-->
+            <h2 class="subtitulo">Our service</h2>
+            <div class="contenedor-servicio">
+                <img src="img/Startup_Isometric.svg" alt="">
+                <div class="startup-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Web Desing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolorum. Culpa, quos adipisci. Facere eveniet, delectus at facilis aspernatur repudiandae!</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Web Desing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolorum. Culpa, quos adipisci. Facere eveniet, delectus at facilis aspernatur repudiandae!</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolorum. Culpa, quos adipisci. Facere eveniet, delectus at facilis aspernatur repudiandae!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="galeria" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Gallery</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/gallery1.jpg" alt="" class="img-galeria">
+                    <img src="img/gallery2.jpg" alt="" class="img-galeria">
+                    <img src="img/gallery3.jpg" alt="" class="img-galeria">
+                    <img src="img/gallery4.jpg" alt="" class="img-galeria">
+                    <img src="img/gallery5.jpg" alt="" class="img-galeria">
+                    <img src="img/gallery6.jpg" alt="" class="img-galeria">  
+                </div>
+            </div>
+        </section>
+
+        <!--De aqui nace el lightbox-->
+        <section class="imagen-light">            
+            <img src="img/bx-x.svg" alt="" class="close">
+            <img src="img/hero.jpg" alt="" class="agregar-imagen">
+        </section> 
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Professionals services:</h2>
+            <section class="experts">
+                <div class="cont-experts">
+                    <img src="img/Designer _Isometric.svg" alt="">
+                    <h3 class="n-experts">Web Desing</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="img/Transaction _Isometric.svg" alt="">
+                    <h3 class="n-experts">Transactions</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="img/Analytics team_Isometric.svg" alt="">
+                    <h3 class="n-experts">Analytics</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Victor Perez </h2>
+                <p>We create the website of your dreams</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    
+    
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
